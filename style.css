@@ -1,0 +1,117 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+  body
+  {
+    margin: 0px;
+    background : url(flo.jpg) no-repeat;
+    background-position: top center;
+    background-size: 1400px 630px;
+    background-attachment: fixed;
+    color : white;
+  }
+
+
+.cover{
+background: rgba(0, 0, 0, 0.3);
+position: absolute;
+height:100%;
+width:100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+.social
+{
+  height : 200px;
+  width : 400px;
+}
+.mainsection
+{
+
+  margin: 150px 100px 75px 100px;
+   height : 500px;
+}
+.secondsection
+{
+  margin: 150px 100px 75px 100px;
+   height : 500px;
+   font-family :'Bradley Hand', cursive;
+   font-size : 35px;
+   height: 425px;
+   width: 48%;
+   color : white;
+   text-shadow: 0 6px black;
+}
+.header
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 50px;
+   height : 400px;
+   color : white;
+   text-shadow: 0 6px black;
+}
+#greybox
+{
+  display: flex;
+
+  justify-content: space-between;
+}
+.img{
+  width:440px;
+  height: 500px;
+}
+
+.orangebox
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 35px;
+  height: 425px;
+  width: 48%;
+}
+@media (max-width: 576px) {
+body
+{
+background: none;
+background-color: pink;
+
+}
+.cover
+  {
+  height :0px;
+  width : 0px;
+  }
+  .orangebox
+  {
+    font-family :'Bradley Hand', cursive;
+    font-size : 15px;
+    height: 400px;
+    width: 600px ;
+  }
+  .img{
+    position: relative;
+    right:50px;
+    width:220px;
+    height: 300px;
+  }
+
+}
+
+
+.social a {
+   display: inline;
+text-align: center;
+width: 90px;
+height: 90px;
+float: left;
+background: #fff;
+border: 1px solid #ccc;
+box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+border-radius: 24px;
+margin: 0 50px 40px 0;
+padding: 6px;
+color: #000;
+}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
